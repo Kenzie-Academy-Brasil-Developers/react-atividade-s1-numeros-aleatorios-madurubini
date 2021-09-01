@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #bbd1ea;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #507dbc;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.Card {
+  border: 2px solid #a1c6ea;
+  border-radius: 10px;
+  height: 100px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+button {
+  background-color: #a1c6ea;
+  color: #507dbc;
+  border: 2px solid #a1c6ea;
+  border-radius: 8px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(0.93);
+  border: 1px solid #507dbc;
+  font-weight: bold;
+}
